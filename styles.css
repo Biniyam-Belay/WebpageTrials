@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232830;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header {
+    background-color: #232830;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+#right-words {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    float: right;
+}
+
+#left-word {
+    float: left;
+}
+
+#logo{
+    width: 194.45px;
+    height: 204.08px;
+}
+#logo-container {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.Heading1 {
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    color: #FF7575;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-heading {
+    font-family: Poppins;
+    font-size: 29px;
+    color: #ffff;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 1px;
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    color: #909090;
+}
+
+.imagelist{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:10px;
+    color: #ffff;
+}
+
+#listic{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+#vecic{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+hr{
+    border-color:#909090;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 25px;
+    background-color: #ffff;
+    box-sizing: border-box;
+}
+
