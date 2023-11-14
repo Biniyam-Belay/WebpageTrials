@@ -92,23 +92,58 @@ hr{
     border-color:#909090;
 }
 
-
-.flex-container {
+.card-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
 }
 
 .card {
-    flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card */
-    margin: 10px;
-    padding: 20px;
-    height: 250px;
-    border: 1px solid #ff0000;
-    border-radius: 25px;
-    background-color: #ffff;
-    box-sizing: border-box;
+    background-color: #FFFFFF;
+    width: 390px;
+    height: 439px;
+    top: 403px;
+    left: -309px;
+    border-radius: 22px;
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+
 }
 
+.card img {
+    width: 337.08px;
+    height: 160px;
+    top: 429px;
+    left: -282.54px;
+    border-radius: 22px;
+}
+
+.card-text {
+    width: 337.08px;
+    height: 58px;
+    top: 622px;
+    left: -282.54px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.date-info,
+.devops-info {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.date-info {
+    color: #888;
+}
