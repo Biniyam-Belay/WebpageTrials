@@ -105,6 +105,7 @@ hr{
     flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card */
     margin: 10px;
     padding: 20px;
+    height: 250px;
     border: 1px solid #ff0000;
     border-radius: 25px;
     background-color: #ffff;
